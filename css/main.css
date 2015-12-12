@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center; <!--for IE ???-->
+}
+
+table{
+    margin: auto;
+    border: 1px solid #000000;
+}
+
+#menu{
+    font-family: monospace;
+    font-size: 20px;
+}

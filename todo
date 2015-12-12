@@ -1,0 +1,8 @@
+add new class for moving items, and items objects
+set infinte array of Item objects, and update in render() and update()
+add onclick that makes player move to clicked spot:
+    2 recursion functions to set route
+    different speed
+    make "nice" path. not moveX, moveY etc
+add new items
+add location map to check available path for user, interactions etc

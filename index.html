@@ -1,10 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<title>Simple Canvas Game</title>
-	</head>
-	<body>
-		<script src="js/game.js"></script>
-	</body>
+<head>
+    <meta charset="UTF-8">
+    <title>Sarah's First Game!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="Sarah Gaidi">
+    <meta name="description" content="An online game by Sarah Gaidi.">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<h1>Game</h1>
+<table>
+    <tr>
+        <td rowspan="2">
+            <canvas id="mainScreen">
+                Your browser does not support HTML5 Canvas.
+            </canvas>
+        </td>
+        <td id="menu">
+            <canvas id="menuScreen">
+                Your browser does not support HTML5 Canvas.
+            </canvas>
+            <button id="screenShot" onclick="createImageDataPressed()">
+                screen shot
+            </button>
+            <button id="switch">
+                switch
+            </button>
+            <button id="zoomIn" onclick="zoomIn()">
+                zoom in
+            </button>
+            <button id="zoomOut" onclick="zoomOut()">
+                zoom out
+            </button>
+        </td>
+    </tr>
+</table>
+<script src="js/Canvas.js" type="text/javascript"></script>
+<script src="js/Draw.js" type="text/javascript"></script>
+</body>
 </html>
